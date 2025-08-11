@@ -146,20 +146,14 @@ export default {
       referencia:
         'Kiyosaki, R. T. (2000). El cuadrante del flujo de dinero: Guía del padre rico hacia la libertad financiera. Aguilar.',
       tipo: 'Libro',
-      link: 'El_cuadrante_del_flujo_de_dinero.pdf',
+      descarga: '/downloads/El_cuadrante_del_flujo_de_dinero.pdf',
     },
     {
       tema:
         'El presupuesto como herramienta clave para la gestión financiera personal',
       referencia: 'Kiyosaki, R. T. (s.f.). Guía para invertir.',
       tipo: 'Libro - apuntes',
-      link: 'Guía para invertir.pdf',
-    },
-    {
-      tema: 'Repositorio Institucional - Universidad Nacional de Colombia.',
-      tipo: 'PDF ',
-      link:
-        'https://repositorio.unal.edu.co/bitstream/handle/unal/9084/Tesis_GEMejia.pdf?sequence=1&isAllowed=y',
+      link: '/downloads/Guia_para_invertir.pdf',
     },
   ],
   glosario: [
@@ -242,6 +236,11 @@ export default {
   referencias: [
     {
       referencia:
+        'Burbano, J. (2005) Presupuestos: enfoque moderno de planeación y control de recursos. Mc Graw Hill Bogotá. Tercera Edición.',
+      link: '',
+    },
+    {
+      referencia:
         'Banco de la República de Colombia. (2022). Educación económica y financiera: Guías para el aprendizaje y la toma de decisiones financieras.',
       link: 'https://www.banrep.gov.co/es/educacion-economica',
     },
@@ -264,6 +263,16 @@ export default {
       referencia:
         'Fundación BBVA. (2019). La importancia del ahorro en la estabilidad económica de los hogares.',
       link: 'https://www.bbva.com',
+    },
+    {
+      referencia:
+        'Sepúlveda, Ponce. (2006). Guía práctica para la elaboración de presupuestos. Universidad Austral de Chile. Facultad de Ciencias de Ingeniería. Escuela de construcción civil.',
+      link: '',
+    },
+    {
+      referencia:
+        'Kiyosaki, R., Letcher, S. (2012). Padre rico, padre pobre. Nueva edición actualizada. Bogotá, Colombia: Santillana Ediciones.',
+      link: '',
     },
   ],
   creditos: [
@@ -288,11 +297,12 @@ export default {
         {
           nombre: 'Dania Aurelia Rueda Guanaro',
           cargo: 'Experta temática',
-          centro: 'SENA Regional Risaralda',
+          centro:
+            'Centro Agropecuario y de comercio y servicios - Regional Risaralda',
         },
         {
-          nombre: 'Edison Eduardo Mantilla Cuadros ',
-          cargo: 'Diseñador de contenidos',
+          nombre: 'Sandra Paola Morales Páez',
+          cargo: 'Evaluadora instruccional',
           centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
@@ -301,36 +311,30 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
+          nombre: 'María Alejandra Vera Briceño',
+          cargo: 'Animadora y productora multimedia',
+          centro: 'Centro Agroturístico - Regional Santander',
+        },
+        {
+          nombre: 'Johann Sebastián Terán Carvajal',
+          cargo: 'Animador y productor multimedia',
+          centro: 'Centro Agroturístico - Regional Santander',
+        },
+        {
           nombre: 'Edison Eduardo Mantilla Cuadros',
-          cargo: 'Diseñador de contenidos',
+          cargo: 'Diseñador de contenidos digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: 'Andrea Paola Botello De la Rosa',
-          cargo: 'Desarrolladora <i>full stack</i>',
-          centro: 'Centro Agroturístico - Regional Santander',
-        },
-        {
-          nombre: ' ',
-          cargo: 'Animador y productor audiovisual',
+          nombre: 'Lizeth Karina Manchego Suarez',
+          cargo: 'Desarrolladora <i>full-stack</i>',
           centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
     },
     {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
-      autores: [
-        {
-          nombre: 'Erika Daniela Manrique Rueda',
-          cargo: 'Validadora y vinculadora de recursos educativos digitales',
-          centro: 'Centro Agroturístico - Regional Santander',
-        },
-        {
-          nombre: 'Erika Fernanda Mejía Pinzón',
-          cargo: 'Evaluadora para contenidos inclusivos y accesibles',
-          centro: 'Centro Agroturístico - Regional Santander',
-        },
-      ],
+      autores: [],
     },
   ],
   creditosAdicionales: {

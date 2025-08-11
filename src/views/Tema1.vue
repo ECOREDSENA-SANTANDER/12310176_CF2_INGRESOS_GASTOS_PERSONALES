@@ -5,7 +5,10 @@
       .titulo-principal.color-acento-contenido
         .titulo-principal__numero
           span 1
-        h1 Titulo de primer nivel
+        h1 El presupuesto como herramienta clave para la gestión financiera personal
+      #t_1_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
+        h2 1.1 Características fundamentales de un buen presupuesto
+      
         
 
   </template>

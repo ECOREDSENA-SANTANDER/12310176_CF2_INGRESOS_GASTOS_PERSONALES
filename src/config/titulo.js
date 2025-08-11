@@ -1,1 +1,1 @@
-module.exports = 'Ecored Base PKG'
+module.exports = 'Diseño de presupuesto y estrategias de ahorro personal'

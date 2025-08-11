@@ -84,6 +84,27 @@ figcaption
   .crd_hover_txt--body
     p
       font-size: 0.85em
+
+.linea-tiempo-d
+  &__item__number
+    background-color: #F4CD57
+  &__item__content__title
+    background-color: #F4CD57
+    border-radius: 7px;
+  &__item--selected
+    .linea-tiempo-d__item
+      &__content, &__content__title, &__number
+        background-color: #E5EEB0 !important
+        color: $color-sistema-texto !important
+.tarjeta-audio.color-secundario
+  background-color: #F9FBEE
+  border: 3px solid  #4E8F7D !important
+.tarjeta-audio.color-secundario .tarjeta-audio__texto
+  color: $color-sistema-texto !important
+  font-style: normal !important;
+.tarjeta-audio__input
+  margin-top: 20px !important
+
 /**************************************************************/
 /***CUSTOM STYLES***/
 /**************************************************************/
@@ -106,7 +127,43 @@ figcaption
     background-color: #F8E29E !important
   &-2
     background-color: #DBE8E4 !important
+  &-3
+    background-color: #CCDD63 !important
+  &-4
+    background-color: #3B3A38 !important
 
+.titulo-icono
+  background-color: $color-acento-contenido
+  border-top-right-radius: 30px
+  border-top-left-radius: 30px
+  border-bottom-left-radius: 30px
+  width: fit-content
+  position: relative;
+  left: 12px;
+  &-text
+    margin-right: 10px
+    margin-left: 50px;
+  &-img
+    padding: 0px
+    position: absolute
+    top: -5px
+
+
+    &:before
+      position: relative
+      border-bottom-right-radius: 40px
+      @media screen and (max-width: 767px)
+        height: 280%
+    img
+      position: relative
+      max-width: 50px
+
+.fa-money-custom::before 
+  content: url('../assets/curso/temas/bg/3.svg'); 
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  vertical-align: middle;
 
 .w-fit
   width: fit-content !important
@@ -116,12 +173,16 @@ figcaption
 .ml-cus
   &-1
     margin-left: 30px !important
+  &-2
+    margin-top: -20%
 .hcard
   &-1
     height: 750px !important
 .wcus
   &-1
     width: 30% !important
+  &-2
+    width: 140px
 
 
 
@@ -155,3 +216,10 @@ figcaption
     margin-inline: -1.3rem;
   .bloque-texto-g
         padding-top: 20px !important;
+  .titulo-icono
+    left: 0px;
+    &-text
+      margin-left: 10px;
+      padding-left: 10px;
+    &-img
+      display: none !important

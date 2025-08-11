@@ -55,7 +55,35 @@ figcaption
 .banner-interno__fondo
   background-image: url('../assets/curso/portada/mini-portada.png') !important
 
+.cursor-pointer.crd_hover_txt
+  cursor: pointer
+.crd_hover_txt
+  position: relative  
+  padding: 0 !important
+  overflow: hidden !important  
+  &:hover    
+    .crd_hover_txt--body   
+      transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1) 
+      transform: translateY(0)
+      background-color: #F8E29E
+      h4
+          color: $color-sistema-texto
 
+.crd_hover_txt--body
+  position: absolute
+  padding: 1.5rem
+  bottom: 0    
+  transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
+  transform: translateY(calc( 100% - 3.85rem ))
+  background-color: #366356
+  border-radius: 20px
+  h4
+    color: #FFF
+
+@media (min-width:1200px) and (max-width:1400px)  
+  .crd_hover_txt--body
+    p
+      font-size: 0.85em
 /**************************************************************/
 /***CUSTOM STYLES***/
 /**************************************************************/
@@ -116,6 +144,8 @@ figcaption
 @media screen and (max-width: $bp-min-md)
   .mb-cus
     margin-bottom: 2em  !important  
+  .bloque-texto-g
+        padding-top: 50px !important;
 
 //// MOBILE 576--------------------------------------
 @media screen and (max-width: $bp-min-sm)
@@ -123,3 +153,5 @@ figcaption
     margin-bottom: 2em  !important
   .bg-full-width 
     margin-inline: -1.3rem;
+  .bloque-texto-g
+        padding-top: 20px !important;

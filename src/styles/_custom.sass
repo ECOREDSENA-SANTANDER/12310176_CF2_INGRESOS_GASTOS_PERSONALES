@@ -113,6 +113,27 @@ figcaption
     .crd_hover_txt--body
       p
         font-size: 0.85em
+.acordion
+  &__activo
+    background-color: #F8E29E !important
+  &__accion__btn--a
+    background-color: #9028E2
+    i
+      color: #FFF
+
+.slyder-a__bullets__item 
+    background-color: #EDF3C9
+    border-color: #EDF3C9
+.slyder-a__bullets__item--active
+    background-color: #CCDD63
+    border-color: #CCDD63
+.slyder-a__btn--sigt, .slyder-a__btn--atrs 
+    background-color: #9028E2
+    border: 0!important
+.img-infografica__item, .img-infografica-b__item
+  width: 7%
+.img-infografica.color-acento-botones .img-infografica__item__numero
+  color: #fff !important
 /**************************************************************/
 /***CUSTOM STYLES***/
 /**************************************************************/
@@ -123,6 +144,26 @@ figcaption
     background-size: cover
     background-repeat: no-repeat
     border-radius: 45px;
+  &-2
+    background-image: url('../assets/curso/temas/t4/4.svg')
+    background-repeat: no-repeat
+    background-size: cover
+  &-3
+    background-image: url('../assets/curso/temas/t4/5.svg')
+    background-repeat: no-repeat
+    background-size: cover
+  &-4
+    background-image: url("../assets/curso/temas/bg/5.png") !important
+    background-position: center
+    background-size: cover
+    background-repeat: no-repeat
+  &-5
+    background-image: url("../assets/curso/temas/t4/10.svg") !important
+    background-size: cover
+    background-repeat: no-repeat
+    background-position: center !important
+
+.p-full-width
 .p-full-width
   padding: 3rem 2.5rem!important;
 .bg-full-width
@@ -141,7 +182,14 @@ figcaption
     background-color: #3B3A38 !important
   &-5
     background-color: #F9FBEE !important
-
+  &-6
+    background-color: #DBE8E4
+  
+.titulo-color
+  &-1
+    background-color: #CCDD63
+    width: fit-content
+    padding: 2px 8px
 .titulo-icono
   background-color: $color-acento-contenido
   border-top-right-radius: 30px
@@ -195,7 +243,14 @@ figcaption
         height: 280%
     img
       position: relative
-
+.titulo-icono-c
+  background-color: #EAF1C0
+  border-top-right-radius: 30px
+  width: fit-content
+  &-text
+    margin-right: 10px
+    margin-left: 10px;
+  
 .fa-money-custom::before 
   content: url('../assets/curso/temas/bg/3.svg'); 
   display: inline-block;
@@ -280,3 +335,8 @@ figcaption
       padding-left: 10px;
     &-img
       display: none !important
+  .tarjeta--container > .tarjeta:first-child
+    border-radius: 20px;
+    margin-bottom: 20px;
+  .tarjeta--container > .tarjeta:last-child
+    border-radius: 20px;

@@ -76,7 +76,7 @@ export default {
         ],
       },
       {
-        nombreRuta: 'tema5',
+        nombreRuta: 'tema4',
         numero: '4',
         titulo: '¿Qué es el ahorro?',
         desarrolloContenidos: true,

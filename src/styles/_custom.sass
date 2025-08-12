@@ -55,35 +55,6 @@ figcaption
 .banner-interno__fondo
   background-image: url('../assets/curso/portada/mini-portada.png') !important
 
-.cursor-pointer.crd_hover_txt
-  cursor: pointer
-.crd_hover_txt
-  position: relative  
-  padding: 0 !important
-  overflow: hidden !important  
-  &:hover    
-    .crd_hover_txt--body   
-      transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1) 
-      transform: translateY(0)
-      background-color: #F8E29E
-      h4
-          color: $color-sistema-texto
-
-.crd_hover_txt--body
-  position: absolute
-  padding: 1.5rem
-  bottom: 0    
-  transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
-  transform: translateY(calc( 100% - 3.85rem ))
-  background-color: #366356
-  border-radius: 20px
-  h4
-    color: #FFF
-
-@media (min-width:1200px) and (max-width:1400px)  
-  .crd_hover_txt--body
-    p
-      font-size: 0.85em
 
 .linea-tiempo-d
   &__item__number
@@ -104,7 +75,44 @@ figcaption
   font-style: normal !important;
 .tarjeta-audio__input
   margin-top: 20px !important
-
+.tabla-a table 
+    min-width: 600px !important
+.tabla-a thead 
+    background-color: #FDF7E5;
+.lista-ol--cuadro__vineta
+  color: $color-sistema-texto
+  font-weight: bold
+.cursor-pointer.crd_hover_txt
+  cursor: pointer
+.cursor-pointer.crd_hover_txt
+  cursor: pointer
+.crd_hover_txt
+  position: relative  
+  padding: 0 !important
+  overflow: hidden !important  
+  border-radius: 20px;
+  &:hover    
+    .crd_hover_txt--body   
+      transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1) 
+      transform: translateY(0)
+      background-image: url('../assets/curso/temas/bg/4.svg')
+      background-repeat: no-repeat
+      background-size: cover
+      h4 
+        color: $color-sistema-texto
+  .crd_hover_txt--body
+    position: absolute
+    padding: 1.5rem
+    bottom: 0    
+    transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
+    transform: translateY(calc( 100% - 3.85rem ))
+    background-color: #366356
+    h4
+      color: #FFF
+  @media (min-width:1200px) and (max-width:1400px)  
+    .crd_hover_txt--body
+      p
+        font-size: 0.85em
 /**************************************************************/
 /***CUSTOM STYLES***/
 /**************************************************************/
@@ -131,6 +139,8 @@ figcaption
     background-color: #CCDD63 !important
   &-4
     background-color: #3B3A38 !important
+  &-5
+    background-color: #F9FBEE !important
 
 .titulo-icono
   background-color: $color-acento-contenido
@@ -157,6 +167,34 @@ figcaption
     img
       position: relative
       max-width: 50px
+.titulo-icono-b
+  background-color: #FDF7E5
+  border-top-right-radius: 30px
+  border-top-left-radius: 30px
+  border-bottom-left-radius: 30px
+  width: 95%
+  position: relative;
+  left: 90px
+  &-text
+    margin-right: 10px
+    margin-left: 300px;
+    width: 95%;
+    margin-top: 30px
+    margin-bottom: 20px
+  &-img
+    padding: 0px
+    position: absolute
+    top: -5px
+    left: -70px
+
+
+    &:before
+      position: relative
+      border-bottom-right-radius: 40px
+      @media screen and (max-width: 767px)
+        height: 280%
+    img
+      position: relative
 
 .fa-money-custom::before 
   content: url('../assets/curso/temas/bg/3.svg'); 
@@ -185,7 +223,8 @@ figcaption
     width: 140px
 
 
-
+.text-left
+  text-align: left !important
 
 /**************************************************************/
 /*Media Queries*/  
@@ -207,6 +246,15 @@ figcaption
     margin-bottom: 2em  !important  
   .bloque-texto-g
         padding-top: 50px !important;
+  .titulo-icono-b
+    left: 10px;
+    width: 100%
+
+    &-text
+      margin-left: 10px;
+      padding-left: 10px;
+    &-img
+      display: none !important
 
 //// MOBILE 576--------------------------------------
 @media screen and (max-width: $bp-min-sm)
@@ -216,8 +264,17 @@ figcaption
     margin-inline: -1.3rem;
   .bloque-texto-g
         padding-top: 20px !important;
-  .titulo-icono
+  .titulo-icono,
     left: 0px;
+    &-text
+      margin-left: 10px;
+      padding-left: 10px;
+    &-img
+      display: none !important
+  .titulo-icono-b
+    left: 10px;
+    width: 100%
+
     &-text
       margin-left: 10px;
       padding-left: 10px;

@@ -68,6 +68,13 @@
             .crd_hover_txt--body.text-center
               h4.mb-3 Organización
               p.mb-0 Un presupuesto bien estructurado refleja claridad de metas y prioridades. Aunque no se puede controlar cada situación de la vida, sí es posible establecer una hoja de ruta que oriente el uso del dinero hacia objetivos concretos.
+  
+  
+  
+  
+  
+  
+  
   </template>
 
 <script>

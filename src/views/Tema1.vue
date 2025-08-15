@@ -26,8 +26,8 @@
                 p.mb-0 Para ampliar y profundizar en los contenidos abordados, se recomienda consultar el siguiente enlace.
               .col-sm-auto
                 a.boton.color-acento-botones.texto-blanco(href="https://youtu.be/rsSYRupzaLQ" target="_blank")
-                  span Ir al video
-                  i.fas.fa-circle-play
+                  span Ir al sitio
+                  i.fas.fa-link
       Separador
       #t_1_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
         h2 1.1 Características fundamentales de un buen presupuesto

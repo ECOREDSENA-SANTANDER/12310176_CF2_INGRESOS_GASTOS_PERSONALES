@@ -52,23 +52,23 @@
       .row.justify-content-center.mb-5(data-aos='fade-right')
         .col-sm-12.col-lg-6
            LineaTiempoD.color-primario
-            .row(numero="1" titulo="Generar más ingresos y reducir gastos")
+            .row.justify-content-center.align-items-center.pcus-1(numero="1" titulo="Generar más ingresos y reducir gastos")
               .col-12
                 p.mb-0 Este principio básico permite no solo mantener el equilibrio financiero, también busca disponer de excedentes que pueden destinarse al ahorro o la inversión.
 
-            .row(numero="2" titulo="Priorizar gastos y registrar movimientos financieros")
+            .row.justify-content-center.align-items-center.pcus-1(numero="2" titulo="Priorizar gastos y registrar movimientos financieros")
               .col-12
                 p.mb-0 Un presupuesto facilita la evaluación de si los recursos se están utilizando con eficiencia, permitiendo detectar fugas de dinero y reajustar prioridades.
 
-            .row(numero="3" titulo="Evitar el endeudamiento innecesario")
+            .row.justify-content-center.align-items-center.pcus-1(numero="3" titulo="Evitar el endeudamiento innecesario")
               .col-12
                 p.mb-0 Al tener un control claro del flujo de efectivo, es posible prevenir el pago de intereses financieros y otros costos asociados a obligaciones adquiridas por falta de planificación.
 
-            .row(numero="4" titulo="Cumplir con las obligaciones fiscales")
+            .row.justify-content-center.align-items-center.pcus-1(numero="4" titulo="Cumplir con las obligaciones fiscales")
               .col-12
                 p.mb-0 En Colombia, llevar un presupuesto permite anticiparse al cumplimiento de la declaración de renta, al conocer el nivel de ingresos o el valor del patrimonio que determina dicha obligación.
 
-            .row(numero="5" titulo="Consolidar metas financieras")
+            .row.justify-content-center.align-items-center.pcus-1(numero="5" titulo="Consolidar metas financieras")
               .col-12
                 p.mb-0 Establecer metas a corto plazo facilita la construcción progresiva de objetivos a mediano y largo plazo, promoviendo un enfoque sostenible del crecimiento económico personal.
         .col-sm-12.col-lg-6.d-none.d-lg-block

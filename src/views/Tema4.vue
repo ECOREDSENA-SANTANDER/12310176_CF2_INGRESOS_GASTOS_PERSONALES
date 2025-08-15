@@ -194,7 +194,7 @@
                         p.mb-0 #[b Satisfacción personal:] permite disfrutar sin afectar el presupuesto (lujos, vacaciones, etc.).
                       li.d-flex
                         i.fas.fa-money-custom
-                        p.mb-0 #[b Contar con seguridad:] seguros o pólizas (salud, vida, hogar, vehículo) reduce riesgos y protege el capital.
+                        p.mb-0 #[b Contar con seguridad:] seguros o pólizas (salud, vida, hogar, vehículo), reduce riesgos y protege el capital.
                       li.d-flex
                         i.fas.fa-money-custom
                         p.mb-0 #[b Inversiones inteligentes:] transformar el ahorro en activos productivos fortalece la estabilidad a largo plazo.
@@ -227,7 +227,7 @@
                   p.mb-0 Viajes, compras a crédito e inversiones.
 
                 .tarjeta.color-acento-contenido.p-3(x="90%" y="50%" numero="+")
-                  p.mb-0 Educación, tecnología (celular, portátil, tablet, etc).
+                  p.mb-0 Educación, tecnología (celular, portátil, #[i tablet], etc.).
 
                 .tarjeta.color-acento-contenido.p-3(x="85%" y="94%" numero="+")
                   p.mb-0 Ahorro, presupuesto, obligaciones financieras.
@@ -247,11 +247,11 @@
               .bloque-texto-g__img.d-none.d-lg-block(
                 :style="{'background-image':`url(${require('@/assets/curso/temas/t4/14.png')})`}")
               .bloque-texto-g__texto.p-4.d-flex.flex-column
-                p.mb-0 Dentro de las recomendaciones en el componente encontrará en material complementario, el libro “El cuadrante del flujo de dinero” de Robert T. Kiyosaki, el cual ofrece una perspectiva transformadora sobre cómo las personas generan ingresos y cómo su mentalidad financiera determina su posición en el llamado “cuadrante del flujo de dinero”. Kiyosaki resalta que el verdadero camino hacia la libertad financiera se encuentra en el lado derecho del cuadrante (dueños de negocio e inversionistas), donde el dinero trabaja para la persona y no al revés. A través de enseñanzas prácticas y vivencias personales, el autor invita a cuestionar el modelo tradicional de seguridad laboral, promoviendo en cambio la adquisición de inteligencia financiera, la creación de sistemas de ingresos pasivos y el desarrollo de una mentalidad emprendedora para lograr independencia económica.
+                p.mb-0 Dentro de las recomendaciones en el componente encontrará en material complementario, el libro “El cuadrante del flujo de dinero” de Robert T. Kiyosaki, el cual ofrece una perspectiva transformadora sobre cómo las personas generan ingresos y cómo su mentalidad financiera determina su posición en el llamado “cuadrante del flujo de dinero”. Kiyosaki resalta que el verdadero camino hacia la libertad financiera se encuentra en el lado derecho del cuadrante (dueños de negocio e inversionistas), donde el dinero trabaja para la persona y no al revés. A través de enseñanzas prácticas y vivencias personales, el autor invita a cuestionar el modelo tradicional de seguridad laboral, promoviendo en cambio, la adquisición de inteligencia financiera, la creación de sistemas de ingresos pasivos y el desarrollo de una mentalidad emprendedora para lograr independencia económica.
 
       .row.justify-content-center.mb-5(data-aos='fade-right')
         .col-sm-12.col-lg-11
-            p.mb-0 En consecuencia, durante todo este material se ha cumplido con evidenciar la capacidad para manejar adecuadamente los recursos personales y planificar financieramente de forma estratégica. Así mismo se invita al aprendiz a asumir la responsabilidad de su bienestar financiero como un ejercicio de autonomía, visualizar el ahorro como una herramienta de crecimiento personal, y aplicar lo aprendido para construir una vida económica más equilibrada, resiliente y orientada al logro de metas personales.
+            p.mb-0 En consecuencia, durante todo este material se ha cumplido con evidenciar la capacidad para manejar adecuadamente los recursos personales y planificar financieramente de forma estratégica. Asímismo, se invita al aprendiz a asumir la responsabilidad de su bienestar financiero como un ejercicio de autonomía, visualizar el ahorro como una herramienta de crecimiento personal, y aplicar lo aprendido para construir una vida económica más equilibrada, resiliente y orientada al logro de metas personales.
         .col-sm-12.col-lg-1.d-none.d-lg-block
           img(src='@/assets/curso/temas/t4/15.svg', alt='')
   </template>

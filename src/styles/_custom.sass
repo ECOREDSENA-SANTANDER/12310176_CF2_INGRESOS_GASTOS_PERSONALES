@@ -67,6 +67,8 @@ figcaption
       &__content, &__content__title, &__number
         background-color: #E5EEB0 !important
         color: $color-sistema-texto !important
+.linea-tiempo-d__item__content__title 
+    min-height: 40px !important
 .tarjeta-audio.color-secundario
   background-color: #F9FBEE
   border: 3px solid  #4E8F7D !important
@@ -276,7 +278,9 @@ figcaption
     width: 30% !important
   &-2
     width: 140px
-
+.pcus
+  &-1
+    padding-top: 0.5em  !important 
 
 .text-left
   text-align: left !important
@@ -294,6 +298,51 @@ figcaption
 @media screen and (max-width: 1200px)
   .mb-cus
     margin-bottom: 2em  !important  
+  .linea-tiempo-d
+    &__item--selected
+      .linea-tiempo-d__item
+        &__content__slot
+          height: auto !important
+  .linea-tiempo-d__item--selected .linea-tiempo-d__item__content__title,
+          padding: 0.5rem 1rem  !important
+          height: auto !important
+  .linea-tiempo-d__item__content__title 
+    height: auto !important
+    padding-top: 0.3rem !important
+    padding-bottom: 0.3rem !important
+  .titulo-icono-b
+    left: 10px;
+    width: 100%
+    &-img
+     left: 0px 
+     top: 50px 
+    &-text
+      margin-left: 235px 
+//// TABLET 992--------------------------------------
+@media screen and (max-width: 992px)
+  .mb-cus
+    margin-bottom: 2em  !important  
+  .linea-tiempo-d
+    &__item--selected
+      .linea-tiempo-d__item
+        &__content__slot
+          height: auto !important
+  .linea-tiempo-d__item--selected .linea-tiempo-d__item__content__title,
+          padding: 0.5rem 1rem  !important
+          height: auto !important
+  .linea-tiempo-d__item__content__title 
+    height: auto !important
+    padding-top: 0.3rem !important
+    padding-bottom: 0.3rem !important
+  .titulo-icono-b
+    left: 10px 
+    width: 100% 
+
+    &-text
+      margin-left: 10px 
+      padding-left: 10px 
+    &-img
+      display: none !important      
   
 //// TABLET MINI 768--------------------------------------
 @media screen and (max-width: $bp-min-md)
@@ -302,12 +351,12 @@ figcaption
   .bloque-texto-g
         padding-top: 50px !important;
   .titulo-icono-b
-    left: 10px;
-    width: 100%
+    left: 10px 
+    width: 100% 
 
     &-text
-      margin-left: 10px;
-      padding-left: 10px;
+      margin-left: 10px 
+      padding-left: 10px 
     &-img
       display: none !important
 
@@ -340,3 +389,16 @@ figcaption
     margin-bottom: 20px;
   .tarjeta--container > .tarjeta:last-child
     border-radius: 20px;
+  .linea-tiempo-d
+    &__item--selected
+      .linea-tiempo-d__item
+        &__content__slot
+          height: auto !important
+  .linea-tiempo-d__item--selected .linea-tiempo-d__item__content__title,
+          padding: 0.5rem 1rem  !important
+          height: auto !important
+  .linea-tiempo-d__item__content__title 
+    height: auto !important
+    padding-top: 0.3rem !important
+    padding-bottom: 0.3rem !important
+

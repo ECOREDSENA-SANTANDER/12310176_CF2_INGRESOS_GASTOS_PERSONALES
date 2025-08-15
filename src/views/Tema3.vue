@@ -161,7 +161,7 @@
               li.d-flex
                 .lista-ol--cuadro__vineta
                   span e
-                p.mb-0 Usar herramientas tecnológicas: emplear aplicaciones o hojas de cálculo para registrar y evaluar el cumplimiento del presupuesto.
+                p.mb-0 Usar herramientas tecnológicas: emplear aplicaciones u hojas de cálculo para registrar y evaluar el cumplimiento del presupuesto.
               li.d-flex
                 .lista-ol--cuadro__vineta
                   span f

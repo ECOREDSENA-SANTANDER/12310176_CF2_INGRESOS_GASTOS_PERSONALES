@@ -153,7 +153,7 @@ export default {
         'El presupuesto como herramienta clave para la gestión financiera personal',
       referencia: 'Kiyosaki, R. T. (s.f.). Guía para invertir.',
       tipo: 'Libro - apuntes',
-      link: '/downloads/Guia_para_invertir.pdf',
+      descarga: '/downloads/Guia_para_invertir.pdf',
     },
   ],
   glosario: [
@@ -295,10 +295,10 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Dania Aurelia Rueda Guanaro',
+          nombre: 'Daniela Aurelia Rueda Guanaro',
           cargo: 'Experta temática',
           centro:
-            'Centro Agropecuario y de comercio y servicios - Regional Risaralda',
+            'Centro Agropecuario y de Comercio y Servicios - Regional Risaralda',
         },
         {
           nombre: 'Sandra Paola Morales Páez',

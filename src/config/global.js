@@ -242,27 +242,27 @@ export default {
     {
       referencia:
         'Banco de la República de Colombia. (2022). Educación económica y financiera: Guías para el aprendizaje y la toma de decisiones financieras.',
-      link: 'https://www.banrep.gov.co/es/educacion-economica',
+      link: '',
     },
     {
       referencia:
         'Comisión Nacional para la Protección y Defensa de los Usuarios de Servicios Financieros (CONDUSEF). (2021). Presupuesto familiar: Guía práctica para organizar tus finanzas.',
-      link: 'https://www.condusef.gob.mx',
+      link: '',
     },
     {
       referencia:
         'Organización para la Cooperación y el Desarrollo Económicos (OCDE). (2020). Recomendaciones sobre competencias financieras para jóvenes y adultos.',
-      link: 'https://www.oecd.org/education/financial-education.htm',
+      link: '',
     },
     {
       referencia:
         'Superintendencia Financiera de Colombia. (2023). ABC de la educación financiera.',
-      link: 'https://www.superfinanciera.gov.co',
+      link: '',
     },
     {
       referencia:
         'Fundación BBVA. (2019). La importancia del ahorro en la estabilidad económica de los hogares.',
-      link: 'https://www.bbva.com',
+      link: '',
     },
     {
       referencia:
@@ -334,7 +334,13 @@ export default {
     },
     {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
-      autores: [],
+      autores: [
+        {
+          nombre: 'Erika Daniela Manrique Rueda',
+          cargo: 'Evaluadora de recursos educativos digitales',
+          centro: 'Centro Agroturístico - Regional Santander',
+        },
+      ],
     },
   ],
   creditosAdicionales: {

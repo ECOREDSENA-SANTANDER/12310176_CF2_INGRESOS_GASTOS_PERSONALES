@@ -249,7 +249,7 @@
               .bloque-texto-g__texto.p-4.d-flex.flex-column
                 p.mb-0 Dentro de las recomendaciones en el componente encontrará en material complementario, el libro “El cuadrante del flujo de dinero” de Robert T. Kiyosaki, el cual ofrece una perspectiva transformadora sobre cómo las personas generan ingresos y cómo su mentalidad financiera determina su posición en el llamado “cuadrante del flujo de dinero”. Kiyosaki resalta que el verdadero camino hacia la libertad financiera se encuentra en el lado derecho del cuadrante (dueños de negocio e inversionistas), donde el dinero trabaja para la persona y no al revés. A través de enseñanzas prácticas y vivencias personales, el autor invita a cuestionar el modelo tradicional de seguridad laboral, promoviendo en cambio, la adquisición de inteligencia financiera, la creación de sistemas de ingresos pasivos y el desarrollo de una mentalidad emprendedora para lograr independencia económica.
 
-      .row.justify-content-center.mb-5(data-aos='fade-right')
+      .row.justify-content-center.mb-0(data-aos='fade-right')
         .col-sm-12.col-lg-11
             p.mb-0 En consecuencia, durante todo este material se ha cumplido con evidenciar la capacidad para manejar adecuadamente los recursos personales y planificar financieramente de forma estratégica. Asimismo, se invita al aprendiz a asumir la responsabilidad de su bienestar financiero como un ejercicio de autonomía, visualizar el ahorro como una herramienta de crecimiento personal, y aplicar lo aprendido para construir una vida económica más equilibrada, resiliente y orientada al logro de metas personales.
         .col-sm-12.col-lg-1.d-none.d-lg-block

@@ -236,7 +236,7 @@ export default {
   referencias: [
     {
       referencia:
-        'Burbano, J. (2005) Presupuestos: enfoque moderno de planeación y control de recursos. Mc Graw Hill Bogotá. Tercera Edición.',
+        'Burbano, J. (2005). Presupuestos: enfoque moderno de planeación y control de recursos. Mc Graw Hill Bogotá. Tercera Edición.',
       link: '',
     },
     {

@@ -251,7 +251,7 @@
 
       .row.justify-content-center.mb-5(data-aos='fade-right')
         .col-sm-12.col-lg-11
-            p.mb-0 En consecuencia, durante todo este material se ha cumplido con evidenciar la capacidad para manejar adecuadamente los recursos personales y planificar financieramente de forma estratégica. Asímismo, se invita al aprendiz a asumir la responsabilidad de su bienestar financiero como un ejercicio de autonomía, visualizar el ahorro como una herramienta de crecimiento personal, y aplicar lo aprendido para construir una vida económica más equilibrada, resiliente y orientada al logro de metas personales.
+            p.mb-0 En consecuencia, durante todo este material se ha cumplido con evidenciar la capacidad para manejar adecuadamente los recursos personales y planificar financieramente de forma estratégica. Asimismo, se invita al aprendiz a asumir la responsabilidad de su bienestar financiero como un ejercicio de autonomía, visualizar el ahorro como una herramienta de crecimiento personal, y aplicar lo aprendido para construir una vida económica más equilibrada, resiliente y orientada al logro de metas personales.
         .col-sm-12.col-lg-1.d-none.d-lg-block
           img(src='@/assets/curso/temas/t4/15.svg', alt='')
   </template>

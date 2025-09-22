@@ -86,7 +86,7 @@
                   .tarjeta
                       TarjetaAudio.color-secundario.mb-0.p-4(
                       texto="Domina tus finanzas personales"
-                      :audio="require('@/assets/actividad/audio/end-game-success.mp3')"
+                      :audio="require('@/assets/actividad/audio/podcast.mp3')"
                   )
                       .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
         .col-sm-12.col-lg-5

@@ -26,7 +26,7 @@ export default {
       instruccion:
         'Complete correctamente los enunciados con la palabra que falta según los contenidos estudiados en el componente formativo.',
       imagen: require('@/assets/actividad/imagen5.png'),
-      barajarPreguntas: false,
+      barajarPreguntas: true,
       textos: [
         {
           id: 1,

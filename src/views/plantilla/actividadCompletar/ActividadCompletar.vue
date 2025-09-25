@@ -192,7 +192,8 @@ export default {
 
     iniciarContadorResultados() {
       this.verificando = true
-      this.contadorResultados = 1 //
+      this.contadorResultados =
+        this.porcentajeAprobacion >= 70 ? 5 : this.parrafo.textos.length * 2
 
       this.intervaloContador = setInterval(() => {
         this.contadorResultados--

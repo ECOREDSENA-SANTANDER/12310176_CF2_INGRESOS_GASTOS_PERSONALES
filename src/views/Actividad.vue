@@ -67,7 +67,7 @@ export default {
         {
           id: 7,
           texto:
-            'Cuando los ingresos son mayores que los egresos se generan una [respuesta] que puede destinarse al ahorro.',
+            'Cuando los ingresos son mayores que los egresos se genera una [respuesta] que puede destinarse al ahorro.',
           respuesta: 'utilidad',
         },
         {

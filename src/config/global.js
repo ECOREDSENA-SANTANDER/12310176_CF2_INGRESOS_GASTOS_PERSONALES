@@ -125,7 +125,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/dist.pdf',
+        download: 'downloads/CF2_12310176_DU.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -338,6 +338,11 @@ export default {
         {
           nombre: 'Erika Daniela Manrique Rueda',
           cargo: 'Evaluadora de recursos educativos digitales',
+          centro: 'Centro Agroturístico - Regional Santander',
+        },
+        {
+          nombre: 'Erika Fernanda Mejía Pinzón',
+          cargo: 'Evaluadora para contenidos inclusivos y accesibles',
           centro: 'Centro Agroturístico - Regional Santander',
         },
       ],

@@ -13,7 +13,7 @@
         .bloque-texto-g__texto.p-4.d-flex.flex-column
           p.mb-3 Ahorrar es una práctica responsable que implica pensar en el futuro y prepararse para imprevistos. Es una forma de autocuidado financiero, ya que permite evitar el consumo excesivo y crear un respaldo económico. 
           p.mb-3 En términos simples, #[b el ahorro es la parte del ingreso que no se gasta], sino que se reserva para cubrir necesidades futuras o alcanzar metas.
-          p.mb-0 Ahorrar no es lo que sobra, sino lo que se #[b planifica guardar] antes de gastar. Esta costumbre puede convertirse en un verdadero salvavidas financiero ante situaciones inesperadas.
+          p.mb-0 Ahorrar no es lo que sobra, sino lo que se #[b planifica], guardar antes de gastar. Esta costumbre puede convertirse en un verdadero salvavidas financiero ante situaciones inesperadas.
 
       .row.align-items-center.mb-5.titulo-icono(data-aos='fade-right')
         .col-auto.titulo-icono-img
@@ -66,12 +66,12 @@
       .row.justify-content-center.mb-5(data-aos='fade-right')
         .col-12
           AcordionA(tipo="a" clase-tarjeta="tarjeta bg-color-6")
-            .row.justify-content-around(titulo="1)	Exploración inicial: pregunta orientadora")
+            .row.justify-content-around(titulo="a)	Exploración inicial: pregunta orientadora")
               .col-12
                 p.mb-3 ¿Qué acciones permitirían mantener la estabilidad económica ante una eventual disminución o pérdida de ingresos?
                 p.mb-0 #[b Actividad:] se propone socializar respuestas posibles y reflexionar sobre los comportamientos financieros más comunes entre los aprendices.
       
-            .row.justify-content-around(titulo="2)	Actividad práctica por cada aprendiz: diseño de presupuesto personal")
+            .row.justify-content-around(titulo="b)	Actividad práctica por cada aprendiz: diseño de presupuesto personal")
               .col-12
                 ul.lista-ul--color.mb-0
                   li.d-flex
@@ -87,7 +87,7 @@
                     i.fas.fa-money-custom
                     p.mb-0 Proponer al menos dos acciones concretas para reducir gastos innecesarios.
       
-            .row.justify-content-around(titulo="3)	Ejercicio reflexivo")
+            .row.justify-content-around(titulo="c)	Ejercicio reflexivo")
               .col-12
                 p.mb-0 Redactar de forma individual tres razones personales por las cuales sería conveniente implementar un plan de ahorro, y cuáles serían los principales retos para superar en ese proceso.
       

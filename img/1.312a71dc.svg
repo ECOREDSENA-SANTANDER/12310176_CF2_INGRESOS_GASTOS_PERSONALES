@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1328" height="626" viewBox="0 0 1328 626">
+  <defs>
+    <linearGradient id="linear-gradient" x2="1" y2="1.017" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#efb810"/>
+      <stop offset="0.033" stop-color="#efb810"/>
+      <stop offset="0.474" stop-color="#4e8f7d"/>
+      <stop offset="0.95" stop-color="#ccdd63"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" y1="1" y2="0" xlink:href="#linear-gradient-2"/>
+  </defs>
+  <g id="Grupo_1099503" data-name="Grupo 1099503" transform="translate(-136 -1011)">
+    <rect id="Rectangle_1" data-name="Rectangle 1" width="1328" height="626" transform="translate(136 1011)" opacity="0.1" fill="url(#linear-gradient)"/>
+    <rect id="Rectángulo_401369" data-name="Rectángulo 401369" width="1328" height="92" transform="translate(136 1011)" fill="url(#linear-gradient-2)"/>
+    <rect id="Rectángulo_401370" data-name="Rectángulo 401370" width="1328" height="92" transform="translate(136 1545)" fill="url(#linear-gradient-3)"/>
+  </g>
+</svg>

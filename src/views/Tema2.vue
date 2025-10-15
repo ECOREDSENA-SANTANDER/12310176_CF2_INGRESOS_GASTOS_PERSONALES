@@ -75,24 +75,24 @@
           img(src='@/assets/curso/temas/t2/3.png', alt='')
   
 
+      p.mb-4 Para ampliar y profundizar en los contenidos abordados, se recomienda consultar el siguiente #[i podcast]:
       .row.justify-content-center.mb-5(data-aos='fade-right')
         .col-sm-12.col-lg-7.mb-cus
           .bg-color-4.p-4.br-1
-            .row.justify-content-center.mb-0.py-0
+            .row.justify-content-center.mb-0.py-0.align-items-center
               .col-sm-12.col-lg-6.d-none.d-lg-block
                 img(src='@/assets/curso/temas/t2/4.svg', alt='')
               .col-sm-12.col-lg-6
-                  p.mb-4.text-white Para ampliar y profundizar en los contenidos abordados, se recomienda consultar el siguiente #[i podcast]:
                   .tarjeta
                       TarjetaAudio.color-secundario.mb-0.p-4(
                       texto="Domina tus finanzas personales"
                       :audio="require('@/assets/actividad/audio/podcast.mp3')"
                   )
                       .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
-        .col-sm-12.col-lg-5
-          .bg-color-1.p-4.br-1
-            p.mb-0.my-3 Asumir la responsabilidad del estado financiero propio es un acto de madurez y visión. Llevar un presupuesto detallado, complementado con herramientas como hojas de balance y estados financieros personales, permite mejorar la toma de decisiones, anticiparse a los retos económicos y proyectar un futuro con mayor estabilidad. 
-            p.mb-0 La educación financiera y el uso consciente de los recursos son elementos esenciales para lograr independencia y bienestar económico.
+        
+      .bg-color-1.p-4.br-1
+        p.mb-3 Asumir la responsabilidad del estado financiero propio es un acto de madurez y visión. Llevar un presupuesto detallado, complementado con herramientas como hojas de balance y estados financieros personales, permite mejorar la toma de decisiones, anticiparse a los retos económicos y proyectar un futuro con mayor estabilidad. 
+        p.mb-0 La educación financiera y el uso consciente de los recursos son elementos esenciales para lograr independencia y bienestar económico.
 
   </template>
 

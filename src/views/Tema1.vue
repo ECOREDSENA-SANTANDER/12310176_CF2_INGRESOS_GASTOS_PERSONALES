@@ -44,8 +44,8 @@
               h4.mb-3 Disciplina
               p.mb-0 La elaboración del presupuesto exige compromiso y constancia. No basta con diseñarlo; es indispensable seguirlo rigurosamente para que cumpla su función como guía de comportamiento financiero.
         .col-xl-3.col-lg-3.col-md-6.col-11.mb-4.mb-xl-0
-          .crd_hover_txt
-            .indicador--hover
+          .crd_hover_txt(@mouseover="mostrarIndicador = false")
+            .indicador--hover(v-if="mostrarIndicador")
             .crd_hover_txt--img
               figure
                 img(src="@/assets/curso/temas/t1/4.png", alt="")
@@ -53,7 +53,7 @@
               h4.mb-3 Compromiso
               p.mb-0 Implica un análisis honesto de la situación económica personal, identificando las fuentes de ingreso y las causas del gasto. El compromiso consiste en ceñirse a los límites establecidos y evitar gastos superfluos que desajusten las finanzas.
         .col-xl-3.col-lg-3.col-md-6.col-11.mb-4.mb-xl-0
-          .crd_hover_txt
+          .crd_hover_txt(@mouseover="mostrarIndicador = false")
             .crd_hover_txt--img
               figure
                 img(src="@/assets/curso/temas/t1/5.png", alt="")
@@ -61,7 +61,7 @@
               h4.mb-3 Perseverancia
               p.mb-0 En el camino pueden surgir ingresos inesperados o gastos imprevistos. La clave está en mantener el rumbo trazado, hacer los ajustes pertinentes y no abandonar el plan presupuestal ante cualquier eventualidad.
         .col-xl-3.col-lg-3.col-md-6.col-11.mb-4.mb-xl-0
-          .crd_hover_txt
+          .crd_hover_txt(@mouseover="mostrarIndicador = false")
             .crd_hover_txt--img
               figure
                 img(src="@/assets/curso/temas/t1/6.png", alt="")
